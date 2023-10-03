@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(230, 223, 223);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.heading{
+  text-align: center;
+  position: relative;
+ 
+}
+.heading-h1{
+  
+  margin: auto;
+  font-weight: bold;
+  font-size: 4xl;
+ 
+ height: 30%;
+  width: 100%;
+ 
+  z-index: -1;
+}
+.line{
+  background-color: violet;
+  position: absolute;
+  height: 4px;
+  width: 40%;
+z-index: 1;
+top: 3rem;
+  margin-left: 30%;
+}
+
+.app{
+  display: flex;
+
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  /* background-color: white; */
+}
+.card img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  z-index: 100;
+  margin-top: 0rem;
+  /* background-color: white; */
+}
+.div-img{
+  /* background-color: white; */
+  position: absolute;
+  left: 0.1rem;
+  top: -4rem;
+  z-index: 10;
+  margin: auto;
+
+}
+.img-back{
+  width: 7rem;
+  height: 7rem;
+  background-color: violet;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  left: 5px;
+  z-index: -1;
+}
+.name{
+  font-size: large;
+  font-weight: bolder;
+  
+}
+.job{
+  color: violet;
+  /* font-display: upp ; */
+  
+}
+.job p{
+  text-transform:uppercase;
+}
+.fa{
+  color: violet;
+
+}
+.text{
+  opacity: 0.7;
+  text-align: center;
+}
+.twobtn{
+  display: flex;
+  gap: 1.3rem;
+align-items: center;
+justify-content: center;
+  /* margin: auto; */
+  
+}
+.btn{
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: violet;
+  font-size: 20px;
+}
+.btn:hover{
+  color: rgb(240, 6, 240);
+
+}
+.surprise{
+  background-color: violet;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px 10px;
+  margin-top: 4px;
+  font-size: large;
+}
+.surprise:hover{
+  background-color: rgb(245, 0, 245);
+  transition: all 0.2s;
+}
+.testi{
+  width: 90vw;
+  /* min-width: 550px; */
+  max-width: 550px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 5px;
+
+}
